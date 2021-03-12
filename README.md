@@ -13,9 +13,9 @@ My experiment to generate URL that begins with `https://` and can be any HTML.
 
 2. Open index.html of this repo with that string in query:
 
-  https://SekiT.github.io/dat-url-container/index.html?PGh0bWw+PGJvZHk+Zm9vPC9ib2R5PjwvaHRtbD4=
+  https://SekiT.github.io/data-url-container/index.html?PGh0bWw+PGJvZHk+Zm9vPC9ib2R5PjwvaHRtbD4=
 
-  All you need is prepend `https://SekiT.github.io/dat-url-container/index.html?` to that string
+  All you need is prepend `https://SekiT.github.io/data-url-container/index.html?` to that string
 
 ## Method
 
