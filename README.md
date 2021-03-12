@@ -4,20 +4,9 @@ My experiment to generate URL that begins with `https://` and can be any HTML.
 
 ## Usage
 
-1. Generate base64-encoded HTML string:
+Use [generator](https://SekiT.github.io/data-url-container/generator.html) to make a link for any HTML content.
 
-  ```js
-  btoa(`<html><body>foo</body></html>`)
-  // => "PGh0bWw+PGJvZHk+Zm9vPC9ib2R5PjwvaHRtbD4="
-```
-
-2. Open index.html of this repo with that string in query:
-
-  https://SekiT.github.io/data-url-container/index.html?PGh0bWw+PGJvZHk+Zm9vPC9ib2R5PjwvaHRtbD4=
-
-  All you need is prepend `https://SekiT.github.io/data-url-container/index.html?` to that string
-
-## Method
+## How it works
 
 You can make a data URL for HTML:
 

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      textarea {
+        display: block;
+      }
+    </style>
+    <script>
+      function generate(){
+        const html = document.getElementById('html').value;
+        const url = `https://SekiT.github.io/data-url-container/index.html?${btoa(html)}`;
+        const a = document.getElementById('url');
+        a.href = a.innerText = url;
+      }
+    </script>
+  </head>
+  <body>
+    <textarea id="html" cols="80" rows="20"></textarea>
+    <button onclick="generate()">Generate</button><br>
+    <a id="url"></a>
+  </body>
+</html>
